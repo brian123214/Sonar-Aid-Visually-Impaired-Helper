@@ -1,3 +1,8 @@
+'''
+In the phyphox app instead of displaying information on a website, you can send it to a csv file. 
+'''
+
+
 import csv
 import matplotlib.pyplot as plt
 import numpy as np
@@ -42,6 +47,8 @@ peaks_y = y[peaks]
 # low = low detection, middle = mid detection, etc.
 result = str(len(peaks_x)) + " objects detected. Signals: "
 
+
+# Determining if a peak is low, mid, or high. I think this measures strength of a signal?
 for i in range(len(peaks_x)):
     result += str(round(peaks_x[i]))
     if peaks_y[i] < 0.2:
