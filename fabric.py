@@ -1,3 +1,9 @@
+
+'''
+Data of plots of sonar signals when directed on a fabric type object
+'''
+
+
 import matplotlib.pyplot as plt
 import numpy as np
 import numpy.polynomial.polynomial as poly
