@@ -1,3 +1,9 @@
+'''
+Tried using k nearest neighbor to determine what counted as a "high", "medium", or "low" reflective object. Such as concrete, wood, and fabric, respectivley. 
+Did not go well...
+'''
+
+
 import numpy as np
 import random
 import matplotlib.pyplot as plt
